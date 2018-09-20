@@ -1,6 +1,6 @@
 # Network Scanner
 
-Generate a csv file with information on the open ports of hosts in a network.
+Generate a csv file with information on the open ports of hosts in a network. Requires ruby 2.5, nmap and unicornscan to be installed.
 
 ## Usage
 
