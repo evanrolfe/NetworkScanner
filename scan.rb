@@ -99,7 +99,7 @@ def scan_to_csv
 end
 
 if ARGV.any?
-  ips = ARGV[1..-1]
+  ips = ARGV[0..-1]
   scan_hosts(ips)
   scan_to_csv
 else
